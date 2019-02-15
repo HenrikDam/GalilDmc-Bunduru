@@ -23,9 +23,14 @@
       "name": "comment.galildmc"
     },
     {
+      "match": "NO.+",
+      "name": "comment.galildmc"
+      "comment": "NO comment"
+    },
+    {
       "match": "^REM.*$",
       "name": "comment.galildmc",
-      "comment": "REM comment"
+      "comment": "REM comment - gets removed when uploading"
     },
     {
       "match": "\"[^\"]*\"",
@@ -45,6 +50,11 @@
       "match": "(ELSE|ENDIF|END|IF|P2CD|P2CH|P2NM|P2ST|REM|TIME)",
       "name": "keyword.control.galildmc", 
       "comment": "Control Commands"
+    },
+    {
+      "match": "([A-Z]{1,}[0-9]{1,}[A-Z]{1,}|[0-9A-Z]{4,})",
+      "name": "storage.type.galildmc",
+      "comment": "User variables"
     },
     {
       "match": "(A[BCDFGILMOPQRSTUVW]|B[ABCDGIKLMNOPQRSTVWXZ]|C[ABCDEFIMNORSW]|D[ACEFHLMPRTV]|E[ABCDGIMNOPQRSTWY]|F[AEILV]|G[ADMR]|H[MSVX]|I[ADHIIKLNPT]|J[GPS])",

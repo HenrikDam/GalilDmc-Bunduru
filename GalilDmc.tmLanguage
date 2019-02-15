@@ -19,6 +19,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>NO comment</string>
+			<key>match</key>
+			<string>NO.*$</string>
+			<key>name</key>
+			<string>comment.galildmc</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>REM comment</string>
 			<key>match</key>
 			<string>^REM.*$</string>
@@ -54,6 +62,14 @@
 			<string>(ELSE|ENDIF|END|IF|P2CD|P2CH|P2NM|P2ST|REM|TIME)</string>
 			<key>name</key>
 			<string>keyword.control.galildmc</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>User Variables</string>
+			<key>match</key>
+			<string>([A-Z]{1,}[0-9]{1,}[A-Z]{1,}|[0-9A-Z]{4,})</string>
+			<key>name</key>
+			<string>storage.type.galildmc</string>
 		</dict>
 		<dict>
 			<key>comment</key>
