@@ -2,7 +2,7 @@
 This is syntax highlighting in for Galil DMC.
 
 Here is an image of what it looks like with some assembly code.
-![alt Sample](./Example.png)
+![alt Sample](./Example_GM.jpg)
 
 ## Self Install
 To install on your own, first download a copy of the whole package. Then in
